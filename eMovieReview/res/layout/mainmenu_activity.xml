@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/appTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/random_image_desc"
+        android:src="@drawable/bcg" />
+
+    <TextView
+        android:id="@+id/btn_Preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="openPreview"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/txtMovieList"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        style="@style/buttonStyle"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_buton"
+        android:gravity="center"
+        android:onClick="openLogin"
+        android:text="@string/btn_Login" />
+
+    <Button
+        android:id="@+id/btn_Signup"
+        style="@style/buttonStyle"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/custom_buton"
+        android:gravity="center"
+        android:onClick="openSignup"
+        android:text="@string/btn_Signup" />
+
+    <Button
+        android:id="@+id/btn_Logout"
+        style="@style/buttonStyle"
+        android:layout_width="230dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/custom_buton"
+        android:gravity="center"
+        android:onClick="logout"
+        android:text="@string/btn_Logout" />
+
+</LinearLayout>

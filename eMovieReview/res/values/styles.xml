@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="appTheme" parent="android:Theme.Light"></style>
+
+    <style name="buttonStyle">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Sections">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    
+    <style name="Sections2">
+        <item name="android:textColor">@color/blue_hard</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="H2">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+</resources>
